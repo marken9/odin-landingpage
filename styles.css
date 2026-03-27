@@ -89,6 +89,7 @@ body {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .middle2 {
@@ -111,12 +112,12 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 48px;
-    width:100%;
+    width: 100%;
 }
 
 .pictext img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     margin: 0;
     border-radius: 10px;
@@ -169,4 +170,58 @@ body {
     align-items: stretch;
     justify-content: center;
     gap: 16px;
+}
+
+.middle4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px;
+    margin-bottom: 48px;
+}
+
+.middle4box {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 5px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 70px;
+    width: 700px;
+}
+
+.middle4left p {
+    color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+}
+
+.actionheader {
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.middle4right button {
+    background-color: transparent;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.middle4right button:active {
+    transform: scale(0.98);
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: #F9FAF8;
 }
