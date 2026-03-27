@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
@@ -33,19 +34,22 @@ body {
 }
 
 .containertop {
-  max-width: 1000px;   /* controls layout width */
-  margin: 0 auto;      /* centers it horizontally */
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 32px;
+    max-width: 1000px;
+    /* controls layout width */
+    margin: 0 auto;
+    /* centers it horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
 
-  width: 100%;
-  padding: 0 16px;
-  box-sizing: border-box;
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
 }
 
-.heromain, .herosecond {
+.heromain,
+.herosecond {
     margin: 0;
 }
 
@@ -64,26 +68,26 @@ body {
 .middle1 .left {
     display: flex;
     flex-direction: column;
-    gap:5px;
+    gap: 5px;
     max-width: 500px;
 }
 
 .middle1 .right {
-  max-width: 400px;
-  display: flex;
+    max-width: 400px;
+    display: flex;
 }
 
 .middle1 .right img {
-  height: 95%;
-  width: 95%;
-  object-fit: cover;
-  margin:30px;
+    height: 95%;
+    width: 95%;
+    object-fit: cover;
+    margin: 30px;
 }
 
 .herobutton {
     max-width: 100px;
     background-color: #3882F6;
-    color:#F9FAF8;
+    color: #F9FAF8;
     border-radius: 10px;
 }
 
@@ -91,30 +95,32 @@ body {
     display: flex;
     flex-direction: column;
     background-color: white;
+    padding: 16px 0;
 }
 
 .middle2header {
-    color:#1F2937;
+    color: #1F2937;
     font-size: 36px;
     font-weight: 900;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-content: center;
 }
 
 .containerpic {
-    display:flex;
-    justify-content: center;
-    gap:32px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+    width:100%;
 }
 
 .pictext img {
-   width: 100px;
-   height: 100px;
-  object-fit: cover;
-  margin: 0;
-  border-radius: 10px;
-  border:5px solid #3882F6;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 0;
+    border-radius: 10px;
+    border: 5px solid #3882F6;
 }
 
 .pictext {
@@ -122,16 +128,45 @@ body {
     flex-direction: column;
     align-items: center;
     width: 120px;
-    gap:8px;
+    gap: 8px;
 }
 
 .pictext p {
     text-align: center;
-    margin:0;
+    margin: 0;
 }
-
-
 
 .middle3 {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 48px 0;
+}
+
+.middle3 .quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.middle3 .author {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: right;
+    margin-top: 0;
+}
+
+.middlecontainer1 {
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 32px;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    gap: 16px;
 }
