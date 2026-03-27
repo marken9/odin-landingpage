@@ -84,21 +84,54 @@ body {
     max-width: 100px;
     background-color: #3882F6;
     color:#F9FAF8;
+    border-radius: 10px;
 }
 
 .middle2 {
     display: flex;
     flex-direction: column;
+    background-color: white;
+}
+
+.middle2header {
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    display:flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .containerpic {
     display:flex;
     justify-content: center;
+    gap:32px;
 }
 
 .pictext img {
-    height: 95%;
-  width: 95%;
+   width: 100px;
+   height: 100px;
   object-fit: cover;
-  margin:30px;
+  margin: 0;
+  border-radius: 10px;
+  border:5px solid #3882F6;
+}
+
+.pictext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    gap:8px;
+}
+
+.pictext p {
+    text-align: center;
+    margin:0;
+}
+
+
+
+.middle3 {
+    background-color: #E5E7EB;
 }
